@@ -27,7 +27,7 @@ document.getElementById('loginButton').addEventListener('click', function (e) {
 
     if (checkUserCredentials(email, password)) {
         alert('Connexion réussie');
-        window.location.href = "todolist.html";
+        window.location.href = "./Html/todolist.html";
     } else {
         alert('Échec de la connexion');
     }
