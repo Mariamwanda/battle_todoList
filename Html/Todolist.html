@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+    <link rel="stylesheet" href="/Css/todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a class="active" href="#home">Tableau</a>
+      <div class="deconnexion">
+        <a class="deconnexion" href="./connexion.html"
+          ><i class="fa-solid fa-paperclip"></i> Deconnexion</a
+        >
+      </div>
+    </div>
+    <div class="container">
+      <h1>Ma Todo</h1>
+
+      <div class="input-container">
+        <input type="text" id="taskInput1" class="task-input" placeholder="" />
+        <input
+          type="datetime-local"
+          id="dueDateInput1"
+          class="due-date-input"
+        />
+      </div>
+      <div class="input-container">
+        <input type="text" id="taskInput2" class="task-input" placeholder="" />
+        <input
+          type="datetime-local"
+          id="dueDateInput2"
+          class="due-date-input"
+        />
+      </div>
+      <button id="addTask"><i class="fa-solid fa-plus"></i> Ajouter</button>
+
+      <ul id="taskList"></ul>
+    </div>
+  </body>
+  <script src="/Js/todo.js"></script>
+</html>
