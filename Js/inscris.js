@@ -31,7 +31,7 @@ document.getElementById('registerButton').addEventListener('click', function (e)
     if (!checkUserExists(email)) {
         storeUserData(username, email, password);
         alert('Inscription réussie');
-        window.location.href = "./Html/connexion.html";
+        window.location.href = "/Html/connexion.html";
     } else {
         alert('Un utilisateur avec cet email existe déjà.');
     }
